@@ -9,8 +9,6 @@ public class Task0Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Task0Application.class, args);
 		System.out.println("hello world");
-		HomeController homeController = new HomeController();
-		homeController.getMyDetails();
 	}
 
 }

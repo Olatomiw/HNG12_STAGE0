@@ -13,7 +13,7 @@ import java.util.Date;
 
 @RestController
 @RequestMapping
-@CrossOrigin(origins = "/")
+@CrossOrigin(origins = "*")
 public class HomeController {
 
     @GetMapping("/get/myDetails")
